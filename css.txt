@@ -1,0 +1,173 @@
+
+
+.welcome{
+  background-color:transparent;
+  padding: 13% 0 0 0;
+  /* position: absolute; */
+  color: rgb(228, 248, 248);
+  padding: auto;
+  margin: auto auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.welcome .mern{
+  color:rgb(103, 201, 103);
+}
+.welcome .mern .mongo{
+  color: rgb(212, 212, 75);
+}
+.welcome .mern .express{
+  color: rgb(221, 135, 22);
+}
+.welcome .mern .react{
+  color: rgb(207, 200, 249);
+}
+.welcome .mern .node{
+  color: rgb(62, 225, 75);
+}
+
+
+.home {
+  background-image: url("../src/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+  background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+width: 100%;
+background-position: center;
+
+}
+
+.home .user{
+  color: azure;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top:16%;
+  font-family: 'Sacramento', cursive;
+  transform: rotateZ(3deg);
+}
+.rushabh-navbar{  
+  /* position: absolute; */
+  background-color: black !important;
+  font-size: 25px;
+  color: white !important;
+}  
+.nav-link{
+  color: white !important;
+}
+.navbar-toggler-icon{
+  color: white !important;
+  border: white;
+}
+
+.navbar-brand .user{
+  height: 15%;
+  width: 15%;
+}
+
+.navbar-brand .user img{
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .welcome {
+    padding: 75% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .home{
+    height:180vh;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    padding: 12%;
+  }
+.container .middle-img {
+  width: 40%;
+  height: 50%;
+}
+.form{
+  width: 1000px;
+  background-color: #76bfd1;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-img img{
+  width: 100%;
+  height: 100%;
+}
+  .home .user{
+    padding-top: 5%;
+   font-size: 40px;
+   transform: rotateZ(0deg);
+  }
+    
+}
+@media only screen and (min-width: 800px) {
+
+.main{
+  width: 80%;
+  /* align-items: center; */
+  text-align: center;
+  /* display: inline-block; */
+  padding-top: 0;
+  margin: 0 20%;
+}
+.main .images{
+  width: 40%;
+  height: 40%;
+  margin: 60px;
+}
+.images img{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin:40px 50px;
+}
+.middle{
+  padding: 5%;
+}
+.main .middle{
+  display: flex;
+  flex-direction: row;
+}
+.form .box{
+  padding: 10px;
+}
+.form .box input{
+  padding: 2px;
+  margin: 5px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.form{
+  width: 800px;
+  background-color: #87c8d8;
+  display: flex;
+  flex-direction: column;
+}
+}
